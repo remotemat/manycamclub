@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
   line-height: 1.4;
   font-family: "Source Sans Pro", sans-serif;
@@ -18,10 +22,9 @@ p {
     font-size: 25px;
 }
 
-#learn_more {
-   position: relative;
-    left: 470px;
-    margin-top: 30px;
+#learnmore {
+    position: relative;
+    left: 41%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1716,6 +1719,7 @@ nav {
   font-size: 200px;
 }
 
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
@@ -1748,6 +1752,7 @@ nav {
   .counters-item:before {
     display: none;
   }
+    
 }
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -1759,6 +1764,7 @@ nav {
   #slitSlider .carousel-caption h2 {
     font-size: 60px;
   }
+    
   /* about us */
   .feature-desc h3 {
     margin-top: 0;
@@ -1803,6 +1809,7 @@ nav {
   .counters-item:before {
     display: none;
   }
+    
   /* parallax section */
   .parallax-section {
     background-position: center top !important;
@@ -2085,19 +2092,30 @@ nav {
     }
     #sub-desc {
         position: relative;
-        right: 100px;
+        right: 10px;
+        width: 80vw;
     }
     #buy {
         position: relative;
         left: 80px;
     }
+    #learn_more {
+   position: relative;
+    right: 38%;
+    margin-top: 30px;
+}
+     #body{
+        width: 100vw;
+    }
+    
 }
 
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .title h2 {
+   
+    .title h2 {
     font-size: 32px;
   }
   .counter .counter-title h2 {
