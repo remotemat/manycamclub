@@ -1806,6 +1806,11 @@ nav {
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
 @media (min-width: 768px) and (max-width: 979px) {
+     #learn_more {
+   position: relative;
+    right: 23%;
+    margin-top: 30px;
+}
   .counters-item:before {
     display: none;
   }
@@ -2114,7 +2119,11 @@ nav {
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-   
+    #learn_more {
+   position: relative;
+    right: 38%;
+    margin-top: 30px;
+}
     .title h2 {
     font-size: 32px;
   }
