@@ -425,8 +425,14 @@ a:focus, a:hover {
 /*=================================================================
   Navigation
 ==================================================================*/
+nav {
+    background-color: transparent;
+}
+
 .navigation {
   transition: .3s all;
+    background-color: white;
+    color: black;
 }
 
 .navigation .logo-default {
@@ -484,7 +490,7 @@ a:focus, a:hover {
 .navigation .dropdown .dropdown-menu li a:hover {
   padding-left: 20px;
   background: transparent;
-  color: #fff;
+  color: #111;
 }
 
 .navigation .dropdown:hover .dropdown-menu {
@@ -1879,10 +1885,10 @@ a:focus, a:hover {
     padding: 8px 9px;
   }
   .navigation .navbar-toggle {
-    border: 1px solid #fff;
+    border: 1px solid #111;
   }
   .navigation .navbar-toggle span {
-    background: #fff;
+    background: #111;
   }
   .counters-item:before {
     display: none;
